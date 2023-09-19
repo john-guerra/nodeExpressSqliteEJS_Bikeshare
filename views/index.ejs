@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+
+    <% trips.forEach(function(trip){ %>
+    <div>
+      <div>
+        <label>Ride ID: <output><%= trip.ride_id %></output> </label>
+      </div>
+      <div>
+        <label>started_at: <output><%= trip.started_at %></output> </label>
+      </div>
+    </div>
+    <hr />
+    <% }); %>
+
+    <footer>
+      <div>Made by John with 💪🏼</div>
+    </footer>
+  </body>
+</html>
