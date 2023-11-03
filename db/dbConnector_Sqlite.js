@@ -92,8 +92,67 @@ async function updateTrip(ride_id, newRide) {
   }
 }
 
+async function deleteTrip(ride_id) {
+  console.log("update trip ride_id", ride_id);
+  const db = await connect();
+  try {
+    const stmt = await db.prepare(`DELETE FROM trips      
+  WHERE 
+    ride_id = :ride_id    
+  `);
+
+    stmt.bind({
+      ":ride_id": ride_id,
+    });
+
+    const result = await stmt.run();
+
+    await stmt.finalize();
+
+    return result;
+  } finally {
+    await db.close();
+  }
+}
+
+async function createTrip( newRide) {
+  console.log("create trip newRide", newRide);
+  const db = await connect();
+  try {
+    const stmt = await db.prepare(`INSERT INTO trips 
+      (start_station_name, end_station_name, started_at, ended_at, rideable_type)
+    VALUES
+      ( 
+        :start_station_name,
+        :end_station_name, 
+        :started_at, 
+        :ended_at,
+        :rideable_type
+      )
+  `);
+
+    stmt.bind({
+      ":end_station_name": newRide.end_station_name,
+      ":start_station_name": newRide.start_station_name,
+      ":started_at": newRide.started_at,
+      ":ended_at": newRide.ended_at,
+      ":rideable_type": newRide.rideable_type,
+    });
+
+    const result = await stmt.run();
+
+    await stmt.finalize();
+
+    return result;
+  } finally {
+    await db.close();
+  }
+}
+
 module.exports = {
   getTrips,
   getTrip,
-  updateTrip
+  updateTrip,
+  deleteTrip,
+  createTrip
 };

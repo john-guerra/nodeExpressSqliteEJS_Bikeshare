@@ -11,7 +11,12 @@
 
       <%- include("./partials/errMsg.ejs") %>
 
+      <div class="mb-4">
+        <a href="/trips/create" class="btn btn-primary btn-sm">Create a Ride</a>
+      </div>
       <div class="row">
+  
+
         <% trips.forEach(function(trip){ %>
         <div class="col-4 mb-2">
           <div class="card p-2">
@@ -21,7 +26,12 @@
             <div class="card-text">
               <div>
                 <label
-                  >started_at: <output><%= trip.started_at %></output>
+                  >Date: <output><%= trip.started_at %> to <%= trip.ended_at %></output>
+                </label>
+              </div>
+              <div>
+                <label
+                  >From: <output><%= trip.start_station_name %> to <%= trip.end_station_name %></output>
                 </label>
               </div>
               <div>
