@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Trip Edit</title>
+    <%- include('./partials/css.ejs') %>
+  </head>
+  <body>
+    <div class="container">
+      <%- include("./partials/navBar.ejs") %>
+      <h1>Trip Edit <%= trip?.ride_id %> </h1>
+
+      <%- include("./partials/errMsg.ejs") %>
+
+      <div>Trip edit here</div>
+
+      <%- include("./partials/footer.ejs") %>
+    </div>
+    <!-- /.container -->
+  </body>
+</html>

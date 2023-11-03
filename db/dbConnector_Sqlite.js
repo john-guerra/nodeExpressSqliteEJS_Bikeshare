@@ -10,8 +10,7 @@ async function connect() {
 
 async function getTrips() {
   const db = await connect();
-  const trips =
-    await db.all(`SELECT ride_id, 
+  const trips = await db.all(`SELECT ride_id, 
       start_station_name, 
       end_station_name, 
       started_at, 
@@ -27,6 +26,31 @@ async function getTrips() {
   return trips;
 }
 
+async function getTrip(ride_id) {
+
+  console.log("Get trip ride_id", ride_id);
+  const db = await connect();
+
+  const stmt = await db.prepare(`SELECT 
+    ride_id, 
+    start_station_name, 
+    end_station_name, 
+    started_at, 
+    ended_at,
+    rideable_type
+  FROM trips
+  WHERE 
+    ride_id = ?
+  `);
+
+  const trip = await stmt.all(ride_id);
+  
+  await stmt.finalize();
+
+  return trip;
+}
+
 module.exports = {
-  getTrips
+  getTrips,
+  getTrip,
 };
