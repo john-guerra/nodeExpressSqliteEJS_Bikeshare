@@ -11,7 +11,12 @@ async function connect() {
 async function getTrips() {
   const db = await connect();
   const trips =
-    await db.all(`SELECT ride_id, start_station_name, end_station_name , started_at, ended_at
+    await db.all(`SELECT ride_id, 
+      start_station_name, 
+      end_station_name, 
+      started_at, 
+      ended_at,
+      rideable_type
     FROM  trips
     ORDER BY ride_id DESC
     LIMIT 20;
