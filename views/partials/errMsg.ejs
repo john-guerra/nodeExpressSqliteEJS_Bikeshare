@@ -1,8 +1,8 @@
 <% if (err) { %>
 <div
   id="errMsg"
-  class="alert alert-danger alert-dismissible fade show"
-  role="alert"
+  class="alert alert-<%= type ? type : "alert" %> alert-dismissible fade show"
+  role=<%= type ? type : "alert" %>
 >
   <%= err %>
   <button
@@ -12,4 +12,6 @@
     aria-label="Close"
   ></button>
 </div>
+
+
 <% } %>
