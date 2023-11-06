@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Trip Details <%= trip?.ride_id %></title>
+    <%- include('./partials/css.ejs') %>
+  </head>
+  <body>
+    <div class="container">
+      <%- include("./partials/navBar.ejs") %>
+      <h1>Trip Details <%= trip?.ride_id %></h1>
+
+      <%- include("./partials/errMsg.ejs") %>
+
+      <div class="mb-1">
+        <label class="form-label">
+          <strong>Start Station Name:</strong>
+          <output> <%= trip.start_station_name %> </output>
+        </label>
+      </div>
+      <div class="mb-1">
+        <label class="form-label">
+          <strong>End Station Name:</strong>
+          <output><%= trip.end_station_name %> </output>
+        </label>
+      </div>
+      <div class="mb-1">
+        <label class="form-label">
+          <strong>Started at:</strong>
+          <output><%= trip.started_at %></output>
+        </label>
+      </div>
+      <div class="mb-1">
+        <label class="form-label">
+          <strong>Ended at:</strong>
+          <output><%= trip.ended_at %></output>
+        </label>
+      </div>
+      <div class="mb-1">
+        <label class="form-label">
+          <strong>Type of Ride:</strong>
+          <output> <%= trip.rideable_type %> </output>
+        </label>
+      </div>
+
+      <h2>Comments:</h2>
+
+      <% comments.forEach(function(comment){ %>
+
+        <%= comment.comment %>
+      <% }) %>
+
+      <%- include("./partials/footer.ejs") %>
+    </div>
+    <!-- /.container -->
+  </body>
+</html>

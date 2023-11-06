@@ -48,11 +48,11 @@ async function getTrip(ride_id) {
 
     stmt.bind({ ":ride_id": ride_id });
 
-    const trip = await stmt.all();
+    const trips = await stmt.all();
 
     await stmt.finalize();
 
-    return trip;
+    return trips;
   } finally {
     await db.close();
   }
@@ -149,10 +149,39 @@ async function createTrip( newRide) {
   }
 }
 
+
+// ******* COMMENTS *********
+
+async function getComments(ride_id) {
+  console.log("Get trip ride_id", ride_id);
+  const db = await connect();
+  try {
+    const stmt = await db.prepare(`SELECT 
+    ride_id,
+    comment_id,
+    comment 
+  FROM comments
+  WHERE 
+    ride_id = :ride_id    
+  `);
+
+    stmt.bind({ ":ride_id": ride_id });
+
+    const comments = await stmt.all();
+
+    await stmt.finalize();
+
+    return comments;
+  } finally {
+    await db.close();
+  }
+}
+
 module.exports = {
   getTrips,
   getTrip,
   updateTrip,
   deleteTrip,
-  createTrip
+  createTrip,
+  getComments,
 };

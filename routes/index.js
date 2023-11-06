@@ -7,6 +7,7 @@ const {
   updateTrip,
   deleteTrip,
   createTrip,
+  getComments,
 } = require("../db/dbConnector_Sqlite.js");
 
 /* GET home page. */
@@ -34,7 +35,7 @@ router.get("/trips/:ride_id/edit", async function (req, res) {
     console.log("trips edit found trip", sqlRes);
 
     if (sqlRes.length === 1) {
-      res.render("trips_edit", { trip: sqlRes[0], err: null, type: "danger" });
+      res.render("trips_edit", { trip: sqlRes[0], err: null, type: "success" });
     } else if (sqlRes.length > 1) {
       res.render("trips_edit", {
         trip: sqlRes[0],
@@ -52,6 +53,53 @@ router.get("/trips/:ride_id/edit", async function (req, res) {
     console.log("Error exceuting sql", exception);
     res.render("trips_edit", {
       trip: null,
+      err: `Error executing SQL ${exception}`,
+      type: "danger",
+    });
+  }
+});
+
+// Render the edit interface
+router.get("/trips/:ride_id", async function (req, res) {
+  console.log("Trips detail route", req.params.ride_id);
+
+  try {
+    const sqlRes = await getTrip(req.params.ride_id);
+    const comments = await getComments(req.params.ride_id);
+    console.log("trips edit found trip", sqlRes, " comments.length ", comments.length);
+
+
+
+    if (sqlRes.length === 1) {
+
+      
+
+      res.render("trips_details", {
+        trip: sqlRes[0],
+        comments: comments,
+        err: null,
+        type: "success",
+      });
+    } else if (sqlRes.length > 1) {
+      res.render("trips_details", {
+        trip: sqlRes[0],
+        comments: comments,
+        err: "There is more than one ride with that id =" + req.params.ride_id,
+        type: "danger",
+      });
+    } else {
+      res.render("trips_details", {
+        trip: null,
+        comments: [],
+        err: "Error finding the ride = " + req.params.ride_id,
+        type: "danger",
+      });
+    }
+  } catch (exception) {
+    console.log("Error exceuting sql", exception);
+    res.render("trips_details", {
+      trip: null,
+      comments: [],
       err: `Error executing SQL ${exception}`,
       type: "danger",
     });
