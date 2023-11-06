@@ -72,13 +72,15 @@
       <!-- if comments -->
 
       <h3>Add new comment</h3>
-      <form action="/trips/<%= trip.ride_id %>/comments/create" method="POST">
+      <form action="/comments/create" method="POST">
+
+        <input type="hidden" name="ride_id" value="<%= trip.ride_id %>" />
+
         <div class="mb-1">
           <label
-            >Comment:
+            >New Comment:
 
-            <textarea cols="80" rows="5" name="comment" class="form-control">
-            </textarea>
+            <textarea cols="80" rows="5" name="comment" class="form-control"></textarea>
           </label>
         </div>
         <div class="mb-1">

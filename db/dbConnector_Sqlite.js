@@ -254,6 +254,35 @@ async function deleteComment(comment_id) {
 }
 
 
+async function createComment( newComment) {
+  console.log("create comment newComment", newComment);
+  const db = await connect();
+  try {
+    const stmt = await db.prepare(`INSERT INTO comments 
+      (ride_id, comment)
+    VALUES
+      ( 
+        :ride_id,
+        :comment
+      )
+  `);
+
+    stmt.bind({
+      ":ride_id": newComment.ride_id,
+      ":comment": newComment.comment
+    });
+
+    const result = await stmt.run();
+
+    await stmt.finalize();
+
+    return result;
+  } finally {
+    await db.close();
+  }
+}
+
+
 module.exports = {
   getTrips,
   getTrip,
@@ -263,5 +292,6 @@ module.exports = {
   getComments,
   getComment,
   updateComment,
-  deleteComment
+  deleteComment,
+  createComment
 };

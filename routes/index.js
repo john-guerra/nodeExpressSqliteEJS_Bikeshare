@@ -10,7 +10,8 @@ const {
   getComments,
   getComment,
   updateComment,
-  deleteComment
+  deleteComment,
+  createComment
 } = require("../db/dbConnector_Sqlite.js");
 
 /* GET home page. */
@@ -101,6 +102,11 @@ router.post("/trips/:ride_id/edit", async function (req, res) {
 router.get("/trips/:ride_id", async function (req, res) {
   console.log("Trips detail route", req.params.ride_id);
 
+  // Do we have any message to show?
+  const msg = req.query.msg || null;
+
+
+
   try {
     const sqlRes = await getTrip(req.params.ride_id);
     const comments = await getComments(req.params.ride_id);
@@ -115,7 +121,7 @@ router.get("/trips/:ride_id", async function (req, res) {
       res.render("trips_details", {
         trip: sqlRes[0],
         comments: comments,
-        err: null,
+        err: msg,
         type: "success",
       });
     } else if (sqlRes.length > 1) {
@@ -212,6 +218,10 @@ router.post("/trips/create", async function (req, res) {
 });
 
 // ********  Comments routes ********
+
+
+
+
 
 // Update the comment from the trips_details view, returns to trips_details
 router.post("/comments/:comment_id/edit", async function (req, res) {
@@ -323,5 +333,29 @@ router.get("/comments/:comment_id/delete", async function (req, res) {
     });
   }
 });
+
+
+router.post("/comments/create", async function (req, res) {
+  console.log("Create comments route", req.body);
+
+  const newComment = req.body;
+
+  try {
+    const sqlResCreate = await createComment(newComment);
+    console.log("creating comment result", sqlResCreate);
+
+
+    res.redirect(`/trips/${newComment.ride_id}/?msg=Comment inserted`);
+
+
+  } catch (exception) {
+    console.log("Error exceuting sql", exception);
+    res.render("trips_create", {
+      err: "Error inserting the ride " + exception,
+      type: "danger",
+    });
+  }
+});
+
 
 module.exports = router;
