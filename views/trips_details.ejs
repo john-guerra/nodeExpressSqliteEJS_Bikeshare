@@ -50,8 +50,7 @@
 
       <form action="/comments/<%= comment.comment_id %>/edit" method="POST">
         <div class="mb-1">
-          <textarea type="text" name="comment" cols="80" rows="5">
-  <%= comment.comment %></textarea
+          <textarea type="text" name="comment" cols="80" rows="5"><%= comment.comment %></textarea
           >
         </div>
         <div class="mb-1">

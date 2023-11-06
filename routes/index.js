@@ -11,7 +11,7 @@ const {
   getComment,
   updateComment,
   deleteComment,
-  createComment
+  createComment,
 } = require("../db/dbConnector_Sqlite.js");
 
 /* GET home page. */
@@ -104,8 +104,6 @@ router.get("/trips/:ride_id", async function (req, res) {
 
   // Do we have any message to show?
   const msg = req.query.msg || null;
-
-
 
   try {
     const sqlRes = await getTrip(req.params.ride_id);
@@ -219,10 +217,6 @@ router.post("/trips/create", async function (req, res) {
 
 // ********  Comments routes ********
 
-
-
-
-
 // Update the comment from the trips_details view, returns to trips_details
 router.post("/comments/:comment_id/edit", async function (req, res) {
   console.log("Edit comment route", req.params.comment_id, req.body);
@@ -234,39 +228,15 @@ router.post("/comments/:comment_id/edit", async function (req, res) {
     const sqlResUpdate = await updateComment(comment_id, newComment);
     console.log("Updating comment", sqlResUpdate);
 
+    const editedComment = (await getComment(comment_id))[0];
+
+    console.log("Edited Comment", editedComment);
+
     if (sqlResUpdate.changes === 1) {
-      const sqlResFind = await getComment(req.params.comment_id);
-
-      const comment = sqlResFind[0];
-
-      const sqlResFindTrip = await getTrip(comment.ride_id);
-      const comments = await getComments(comment.ride_id);
-
-      console.log("Comment edited found trip", sqlResFindTrip, comments);
-
-      if (sqlResFindTrip.length === 1) {
-        res.render("trips_details", {
-          trip: sqlResFindTrip[0],
-          comments: comments,
-          err: "Comment modified",
-          type: "success",
-        });
-      } else {
-        res.render("trips_details", {
-          trip: null,
-          comments: [],
-          err: "Error more than one trip o no trip found " + comment.ride_id,
-          type: "danger",
-        });
-      }
+      res.redirect(`/trips/${editedComment.ride_id}/?msg=Comment modified`);
     } else {
       // More than one comment found
-      res.render("trips_details", {
-        trip: null,
-        comments: [],
-        err: "Error more than one comment found ",
-        type: "danger",
-      });
+      res.redirect(`/trips/${editedComment.ride_id}/?msg=Error editing comment`);
     }
   } catch (exception) {
     console.log("Error exceuting sql", exception);
@@ -294,34 +264,9 @@ router.get("/comments/:comment_id/delete", async function (req, res) {
     console.log("Deleting comment", sqlResUpdate);
 
     if (sqlResUpdate.changes === 1) {
-      const sqlResFindTrip = await getTrip(oldComment.ride_id);
-      const comments = await getComments(oldComment.ride_id);
-
-      console.log("Comment deleted found trip", sqlResFindTrip, comments);
-
-      if (sqlResFindTrip.length === 1) {
-        res.render("trips_details", {
-          trip: sqlResFindTrip[0],
-          comments: comments,
-          err: "Comment deleted",
-          type: "success",
-        });
-      } else {
-        res.render("trips_details", {
-          trip: null,
-          comments: [],
-          err: "Error more than one trip o no trip found " + comment.ride_id,
-          type: "danger",
-        });
-      }
+      res.redirect(`/trips/${oldComment.ride_id}/?msg=Comment deleted`);
     } else {
-      // More than one comment found
-      res.render("trips_details", {
-        trip: null,
-        comments: [],
-        err: "Error deleting more than one comment found ",
-        type: "danger",
-      });
+      res.redirect(`/trips/${oldComment.ride_id}/?msg=Error deleting comment`);
     }
   } catch (exception) {
     console.log("Error exceuting sql", exception);
@@ -334,7 +279,7 @@ router.get("/comments/:comment_id/delete", async function (req, res) {
   }
 });
 
-
+// Create a comment from the trips_detail view. Content comes in the body, including the ride_id
 router.post("/comments/create", async function (req, res) {
   console.log("Create comments route", req.body);
 
@@ -344,10 +289,7 @@ router.post("/comments/create", async function (req, res) {
     const sqlResCreate = await createComment(newComment);
     console.log("creating comment result", sqlResCreate);
 
-
     res.redirect(`/trips/${newComment.ride_id}/?msg=Comment inserted`);
-
-
   } catch (exception) {
     console.log("Error exceuting sql", exception);
     res.render("trips_create", {
@@ -356,6 +298,5 @@ router.post("/comments/create", async function (req, res) {
     });
   }
 });
-
 
 module.exports = router;
