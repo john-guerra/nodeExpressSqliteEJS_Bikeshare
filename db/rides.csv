@@ -1,0 +1,1001 @@
+ride_id,start_station_name,end_station_name,started_at,ended_at,rideable_type
+1,Anthes,Glendale,3/12/2023,9/13/2023,manual
+2,Erie,Eliot,12/2/2022,6/1/2023,electric
+3,Nancy,Debra,11/7/2022,1/11/2023,electric
+4,Elka,Rutledge,11/20/2022,3/13/2023,electric
+5,Linden,Hagan,4/5/2023,8/15/2023,new electric
+6,Donald,Kinsman,6/3/2023,2/7/2023,new electric
+7,Sunfield,Derek,5/22/2023,1/10/2023,electric
+8,Nevada,Heath,6/16/2023,5/3/2023,new electric
+9,Portage,Holy Cross,6/19/2023,6/30/2023,new electric
+10,Surrey,Corry,7/7/2023,8/14/2023,new electric
+11,Muir,Waubesa,1/17/2023,12/19/2022,new electric
+12,Main,Del Mar,10/6/2023,10/8/2023,manual
+13,Westerfield,Quincy,2/26/2023,8/30/2023,manual
+14,Mifflin,Messerschmidt,7/22/2023,7/25/2023,manual
+15,Melby,Springview,11/16/2022,7/5/2023,new electric
+16,Mayer,Loeprich,6/30/2023,1/30/2023,manual
+17,Vernon,Raven,10/18/2023,12/31/2022,electric
+18,Comanche,Brown,11/24/2022,7/18/2023,new electric
+19,Morning,Pepper Wood,1/31/2023,5/11/2023,electric
+20,Sherman,Ridge Oak,5/6/2023,4/29/2023,manual
+21,Del Sol,Sullivan,2/16/2023,3/10/2023,electric
+22,Schiller,Waywood,8/9/2023,12/19/2022,electric
+23,Laurel,Granby,2/7/2023,11/4/2022,new electric
+24,Glendale,Farmco,8/29/2023,2/1/2023,electric
+25,Texas,Oxford,9/7/2023,7/4/2023,electric
+26,Emmet,Lakewood,5/30/2023,2/2/2023,manual
+27,Monica,La Follette,12/3/2022,4/3/2023,new electric
+28,Eastwood,Ryan,10/23/2023,2/10/2023,manual
+29,Springview,Dayton,9/15/2023,8/24/2023,new electric
+30,Eliot,Vera,1/22/2023,9/22/2023,new electric
+31,Armistice,Northport,9/4/2023,1/15/2023,electric
+32,Onsgard,Sunbrook,10/24/2023,9/16/2023,electric
+33,Badeau,Manufacturers,7/3/2023,5/17/2023,new electric
+34,Hudson,Heffernan,3/21/2023,11/30/2022,manual
+35,Sunfield,Dayton,6/23/2023,11/25/2022,manual
+36,Florence,Twin Pines,2/24/2023,11/30/2022,new electric
+37,Troy,Oneill,4/22/2023,5/27/2023,manual
+38,Mccormick,Prentice,11/8/2022,9/21/2023,new electric
+39,Crescent Oaks,Pawling,6/28/2023,2/23/2023,new electric
+40,Porter,Crownhardt,7/12/2023,5/26/2023,new electric
+41,Pearson,Mifflin,10/24/2023,2/1/2023,electric
+42,Glendale,Oak Valley,3/3/2023,11/11/2022,electric
+43,Carey,Butterfield,9/24/2023,7/23/2023,electric
+44,Messerschmidt,Mallard,4/19/2023,9/13/2023,electric
+45,Scofield,Caliangt,7/2/2023,11/2/2023,manual
+46,Utah,Kinsman,2/27/2023,11/13/2022,electric
+47,John Wall,Surrey,9/26/2023,1/15/2023,manual
+48,Oakridge,Meadow Vale,1/21/2023,5/4/2023,manual
+49,Bartelt,Golden Leaf,11/27/2022,10/23/2023,manual
+50,Ohio,Arrowood,9/25/2023,12/21/2022,new electric
+51,Northland,Anhalt,12/8/2022,12/26/2022,new electric
+52,Fordem,Oakridge,11/28/2022,3/12/2023,manual
+53,Manley,Nova,11/28/2022,10/1/2023,manual
+54,Transport,Norway Maple,12/20/2022,9/12/2023,electric
+55,Almo,Londonderry,5/6/2023,4/30/2023,new electric
+56,Stuart,Mandrake,1/31/2023,6/1/2023,new electric
+57,Forster,Jenifer,11/11/2022,4/27/2023,manual
+58,Pine View,Harper,9/8/2023,10/11/2023,new electric
+59,Columbus,Arkansas,2/17/2023,4/22/2023,manual
+60,Golf View,Boyd,6/21/2023,9/11/2023,new electric
+61,Fisk,Thierer,5/4/2023,4/6/2023,electric
+62,Portage,Stephen,2/3/2023,1/17/2023,manual
+63,Continental,Judy,3/2/2023,8/3/2023,electric
+64,Kim,Cascade,5/24/2023,9/29/2023,new electric
+65,Fordem,Rutledge,9/12/2023,2/1/2023,manual
+66,Bartillon,Portage,10/2/2023,5/10/2023,new electric
+67,Anderson,Upham,5/19/2023,11/8/2022,new electric
+68,Heath,Dakota,8/2/2023,6/19/2023,electric
+69,Roxbury,David,2/1/2023,3/5/2023,manual
+70,Anzinger,Corscot,8/23/2023,4/12/2023,new electric
+71,Eagan,Talmadge,4/9/2023,4/7/2023,electric
+72,Linden,Drewry,10/31/2023,10/22/2023,electric
+73,La Follette,Cascade,9/8/2023,8/21/2023,manual
+74,Meadow Valley,Kingsford,6/19/2023,8/2/2023,manual
+75,Shoshone,Warner,4/4/2023,10/25/2023,electric
+76,Old Gate,2nd,3/15/2023,7/9/2023,manual
+77,Huxley,Melody,10/18/2023,10/24/2023,new electric
+78,Cody,Dottie,4/13/2023,10/12/2023,new electric
+79,Kropf,Coleman,10/9/2023,9/30/2023,electric
+80,Hayes,Kedzie,12/5/2022,3/19/2023,manual
+81,Golf Course,Jana,4/29/2023,9/26/2023,manual
+82,Annamark,Northfield,4/4/2023,12/7/2022,new electric
+83,Golf,Goodland,11/23/2022,11/10/2022,electric
+84,Armistice,Gerald,8/2/2023,1/2/2023,new electric
+85,Arrowood,Crescent Oaks,10/1/2023,3/31/2023,electric
+86,Merchant,Homewood,1/3/2023,5/3/2023,electric
+87,Packers,Manley,11/21/2022,4/23/2023,new electric
+88,Badeau,Transport,11/1/2023,9/23/2023,electric
+89,Iowa,Colorado,7/8/2023,4/29/2023,manual
+90,Melby,Mesta,12/23/2022,3/11/2023,electric
+91,Lillian,Elgar,1/7/2023,5/9/2023,electric
+92,Lindbergh,Hoepker,11/7/2022,12/5/2022,new electric
+93,Farmco,Pankratz,3/25/2023,8/7/2023,manual
+94,Bellgrove,Crest Line,11/9/2022,5/6/2023,manual
+95,Magdeline,Springs,10/5/2023,4/30/2023,electric
+96,Autumn Leaf,Prairieview,6/15/2023,2/6/2023,electric
+97,Oxford,Lyons,2/27/2023,8/17/2023,electric
+98,Donald,Fallview,1/14/2023,2/28/2023,manual
+99,Eastwood,Dunning,1/17/2023,7/28/2023,new electric
+100,Buena Vista,New Castle,3/27/2023,4/17/2023,manual
+101,Elmside,Farwell,4/3/2023,3/4/2023,manual
+102,Division,Old Shore,7/20/2023,6/8/2023,new electric
+103,Starling,Warbler,3/12/2023,8/18/2023,new electric
+104,Commercial,Melby,2/18/2023,9/8/2023,new electric
+105,Straubel,Northland,7/6/2023,1/17/2023,manual
+106,Sunfield,Eggendart,6/18/2023,9/10/2023,new electric
+107,Leroy,Iowa,2/17/2023,3/2/2023,new electric
+108,Sachtjen,David,6/15/2023,5/16/2023,manual
+109,Calypso,Holmberg,11/25/2022,4/29/2023,manual
+110,Columbus,Ludington,9/2/2023,9/15/2023,manual
+111,Rigney,Eagle Crest,3/15/2023,5/27/2023,manual
+112,Park Meadow,Gale,11/21/2022,7/5/2023,electric
+113,Crescent Oaks,Esch,4/13/2023,4/24/2023,new electric
+114,Burrows,Gerald,8/29/2023,12/24/2022,electric
+115,Steensland,Sunnyside,7/3/2023,5/10/2023,electric
+116,Gina,Morningstar,7/20/2023,1/22/2023,new electric
+117,Loeprich,Homewood,9/24/2023,2/21/2023,new electric
+118,Lindbergh,Vahlen,12/14/2022,11/9/2022,electric
+119,Waubesa,Thompson,9/9/2023,3/4/2023,new electric
+120,Shopko,Little Fleur,10/27/2023,8/21/2023,new electric
+121,Heath,Village Green,9/9/2023,2/14/2023,new electric
+122,Atwood,Schmedeman,9/13/2023,8/29/2023,manual
+123,Amoth,Gina,6/16/2023,7/25/2023,manual
+124,Ohio,Knutson,10/30/2023,5/18/2023,new electric
+125,Farmco,Towne,3/31/2023,11/18/2022,new electric
+126,Cody,Pawling,2/22/2023,5/19/2023,electric
+127,Mifflin,Russell,12/26/2022,3/4/2023,manual
+128,Westend,Sherman,11/10/2022,4/21/2023,manual
+129,Lindbergh,Annamark,1/10/2023,12/25/2022,new electric
+130,Sachtjen,Pine View,7/19/2023,11/1/2023,electric
+131,Killdeer,Buhler,6/19/2023,2/23/2023,electric
+132,Alpine,Hansons,2/16/2023,3/13/2023,new electric
+133,Ludington,Lunder,1/12/2023,7/22/2023,manual
+134,Farragut,Harper,11/23/2022,3/18/2023,new electric
+135,Crest Line,Maywood,8/3/2023,5/22/2023,new electric
+136,Blue Bill Park,Rockefeller,1/15/2023,2/24/2023,new electric
+137,7th,Spenser,11/16/2022,4/29/2023,electric
+138,Fair Oaks,Holmberg,9/28/2023,1/11/2023,electric
+139,Mifflin,Luster,9/12/2023,6/11/2023,manual
+140,Anzinger,Starling,4/22/2023,4/19/2023,manual
+141,Lerdahl,Sunfield,9/15/2023,1/5/2023,manual
+142,Grim,Spohn,1/9/2023,9/20/2023,manual
+143,Butternut,Thierer,12/20/2022,11/30/2022,new electric
+144,Dakota,Namekagon,2/24/2023,9/15/2023,manual
+145,Arkansas,Bultman,6/11/2023,12/7/2022,new electric
+146,2nd,Pleasure,12/19/2022,11/1/2023,electric
+147,Vera,Northland,1/11/2023,6/2/2023,new electric
+148,Briar Crest,Stuart,10/28/2023,8/8/2023,new electric
+149,Eagan,Haas,7/15/2023,4/20/2023,manual
+150,Anthes,Ridgeview,3/29/2023,11/1/2023,manual
+151,Transport,Toban,5/20/2023,4/11/2023,new electric
+152,David,Laurel,1/13/2023,2/16/2023,new electric
+153,Old Shore,David,8/30/2023,1/6/2023,manual
+154,4th,Haas,9/24/2023,5/25/2023,new electric
+155,Main,Spenser,11/4/2022,1/20/2023,new electric
+156,Ryan,Anzinger,4/21/2023,9/24/2023,manual
+157,Bunting,Cherokee,7/18/2023,1/27/2023,manual
+158,Westerfield,Doe Crossing,7/4/2023,10/30/2023,manual
+159,Hoard,Manufacturers,7/22/2023,12/25/2022,electric
+160,Trailsway,Columbus,11/25/2022,11/25/2022,electric
+161,Corscot,Johnson,12/3/2022,11/1/2023,new electric
+162,Ohio,Monterey,6/9/2023,9/20/2023,electric
+163,Garrison,Montana,8/4/2023,6/14/2023,manual
+164,Vernon,Haas,8/4/2023,1/24/2023,new electric
+165,Summit,Waywood,12/17/2022,8/19/2023,new electric
+166,Vidon,Brown,11/15/2022,5/26/2023,electric
+167,Charing Cross,Dixon,4/23/2023,8/17/2023,manual
+168,Calypso,American,6/19/2023,2/1/2023,manual
+169,Shopko,Paget,6/23/2023,10/12/2023,manual
+170,Lotheville,Luster,9/12/2023,8/17/2023,new electric
+171,Lakeland,Talmadge,10/7/2023,3/12/2023,new electric
+172,Lighthouse Bay,Arkansas,7/26/2023,10/8/2023,new electric
+173,Drewry,Maple Wood,12/27/2022,12/29/2022,manual
+174,Lunder,Randy,3/27/2023,4/8/2023,new electric
+175,Atwood,Thackeray,7/14/2023,8/1/2023,new electric
+176,Delladonna,Crowley,6/14/2023,11/22/2022,electric
+177,Steensland,Thackeray,11/21/2022,3/10/2023,new electric
+178,Mesta,Arrowood,5/30/2023,4/4/2023,new electric
+179,Forest,Algoma,4/9/2023,6/7/2023,new electric
+180,Heffernan,Wayridge,9/15/2023,8/23/2023,manual
+181,Warrior,Butternut,7/11/2023,1/9/2023,new electric
+182,Macpherson,Lakeland,8/4/2023,3/24/2023,electric
+183,Dwight,Oakridge,9/6/2023,8/29/2023,electric
+184,Anderson,Towne,3/12/2023,4/24/2023,manual
+185,Ilene,Buell,4/23/2023,9/1/2023,electric
+186,Rieder,Meadow Valley,7/20/2023,6/28/2023,electric
+187,Canary,Arrowood,4/28/2023,2/18/2023,new electric
+188,Waubesa,Lakewood Gardens,7/16/2023,12/23/2022,manual
+189,Clemons,Utah,2/5/2023,8/27/2023,new electric
+190,Ridgeway,Cody,6/28/2023,12/5/2022,electric
+191,4th,South,11/13/2022,11/13/2022,electric
+192,Delladonna,Roth,4/15/2023,9/11/2023,manual
+193,Reindahl,Grim,3/13/2023,1/20/2023,manual
+194,Rusk,Derek,10/18/2023,3/18/2023,new electric
+195,Debs,Oriole,7/25/2023,1/24/2023,manual
+196,Maple Wood,Spaight,6/3/2023,12/28/2022,manual
+197,Maple Wood,Blue Bill Park,7/26/2023,9/12/2023,manual
+198,Sachs,Grayhawk,1/1/2023,2/28/2023,new electric
+199,Gerald,Karstens,7/7/2023,6/18/2023,electric
+200,5th,Merrick,11/12/2022,3/10/2023,new electric
+201,Muir,Butternut,2/14/2023,3/11/2023,new electric
+202,Toban,Summer Ridge,7/1/2023,2/22/2023,new electric
+203,Debs,Dunning,12/17/2022,8/10/2023,new electric
+204,East,Meadow Vale,8/28/2023,5/5/2023,new electric
+205,Schmedeman,Algoma,1/2/2023,3/18/2023,new electric
+206,6th,Ohio,8/9/2023,5/3/2023,manual
+207,Ridgeway,Gina,9/10/2023,11/24/2022,electric
+208,Pleasure,Kipling,1/25/2023,10/27/2023,electric
+209,Jackson,Crownhardt,3/31/2023,7/30/2023,new electric
+210,Westridge,Fremont,8/23/2023,7/1/2023,electric
+211,Graedel,Cody,10/26/2023,8/25/2023,manual
+212,Sachs,Rowland,1/23/2023,10/16/2023,manual
+213,Oxford,Moland,2/16/2023,3/4/2023,electric
+214,Buell,Paget,10/18/2023,7/15/2023,new electric
+215,Old Gate,Veith,10/8/2023,6/4/2023,new electric
+216,Parkside,Steensland,7/5/2023,6/4/2023,new electric
+217,Warner,Laurel,1/17/2023,8/25/2023,electric
+218,Bashford,Elgar,7/23/2023,1/29/2023,new electric
+219,Golf,Lukken,9/14/2023,11/1/2023,new electric
+220,Sutteridge,La Follette,12/26/2022,4/29/2023,manual
+221,Bellgrove,Brickson Park,4/6/2023,9/3/2023,manual
+222,8th,Loomis,8/2/2023,11/16/2022,manual
+223,Hoffman,Onsgard,12/26/2022,3/18/2023,new electric
+224,Debra,Sullivan,9/20/2023,3/9/2023,manual
+225,Tennessee,Cascade,12/31/2022,8/3/2023,manual
+226,Stephen,Brown,3/17/2023,9/3/2023,electric
+227,Rusk,Londonderry,9/13/2023,5/21/2023,manual
+228,Anzinger,Gulseth,8/29/2023,5/30/2023,new electric
+229,Arkansas,Farwell,12/20/2022,6/19/2023,manual
+230,Dunning,Kropf,5/1/2023,7/26/2023,new electric
+231,Leroy,Armistice,9/8/2023,10/19/2023,electric
+232,Canary,Wayridge,6/13/2023,2/2/2023,electric
+233,Raven,Rockefeller,1/11/2023,12/12/2022,new electric
+234,Commercial,Pearson,2/2/2023,1/16/2023,electric
+235,Kropf,Arapahoe,11/22/2022,10/6/2023,new electric
+236,Namekagon,Messerschmidt,10/3/2023,1/29/2023,electric
+237,Upham,Jenna,4/23/2023,4/23/2023,electric
+238,Scott,Michigan,9/12/2023,11/29/2022,new electric
+239,Quincy,Fair Oaks,11/17/2022,2/12/2023,manual
+240,Crowley,8th,4/6/2023,10/26/2023,manual
+241,Clemons,Bunting,5/15/2023,8/23/2023,manual
+242,Bobwhite,Myrtle,8/20/2023,6/11/2023,manual
+243,Lakeland,Elka,4/8/2023,1/3/2023,new electric
+244,Marquette,Norway Maple,10/10/2023,5/16/2023,electric
+245,Boyd,Spaight,6/16/2023,7/2/2023,new electric
+246,Bartelt,Arrowood,10/25/2023,7/3/2023,manual
+247,Sage,Redwing,12/6/2022,12/27/2022,new electric
+248,Autumn Leaf,Marcy,11/23/2022,4/22/2023,new electric
+249,Darwin,Graceland,6/12/2023,1/10/2023,electric
+250,Killdeer,Sommers,9/29/2023,1/26/2023,new electric
+251,Schiller,Trailsway,3/11/2023,9/16/2023,manual
+252,Lillian,Hagan,11/8/2022,2/23/2023,new electric
+253,La Follette,Fulton,2/10/2023,10/16/2023,manual
+254,Carpenter,Di Loreto,10/28/2023,4/15/2023,new electric
+255,Weeping Birch,Lighthouse Bay,6/2/2023,7/22/2023,manual
+256,Delladonna,Farwell,4/26/2023,8/11/2023,manual
+257,Fieldstone,Banding,2/5/2023,11/2/2023,new electric
+258,Florence,Pepper Wood,1/12/2023,6/8/2023,electric
+259,Mesta,Elmside,9/24/2023,8/6/2023,manual
+260,Arkansas,Oak,10/9/2023,9/22/2023,electric
+261,Westerfield,Spenser,9/11/2023,5/26/2023,new electric
+262,Valley Edge,Hovde,2/5/2023,8/1/2023,new electric
+263,Novick,Walton,5/10/2023,7/30/2023,manual
+264,Hooker,Raven,9/15/2023,4/27/2023,new electric
+265,Swallow,Bonner,3/9/2023,4/13/2023,new electric
+266,Esch,Northport,4/21/2023,7/14/2023,new electric
+267,Petterle,Ramsey,3/20/2023,8/26/2023,electric
+268,Elmside,Sundown,12/1/2022,12/10/2022,new electric
+269,Oneill,Amoth,2/9/2023,1/9/2023,new electric
+270,Dawn,Esch,10/18/2023,3/30/2023,electric
+271,Ruskin,Macpherson,6/15/2023,12/2/2022,electric
+272,Oak,Debra,2/16/2023,5/24/2023,new electric
+273,7th,High Crossing,5/24/2023,12/13/2022,manual
+274,Namekagon,Norway Maple,6/11/2023,2/24/2023,new electric
+275,Oneill,Riverside,1/22/2023,2/15/2023,new electric
+276,Moose,Alpine,9/2/2023,5/20/2023,manual
+277,Golf Course,Blue Bill Park,8/15/2023,9/5/2023,manual
+278,Del Sol,Loeprich,11/19/2022,6/16/2023,electric
+279,Graceland,Gateway,3/17/2023,3/4/2023,electric
+280,1st,Fairfield,11/18/2022,1/27/2023,manual
+281,Lakewood Gardens,Ronald Regan,4/19/2023,12/1/2022,electric
+282,Schiller,Daystar,7/6/2023,1/25/2023,electric
+283,Independence,Melby,4/10/2023,1/5/2023,manual
+284,Farragut,Nancy,4/9/2023,10/24/2023,new electric
+285,Holy Cross,Steensland,4/21/2023,11/3/2022,electric
+286,Granby,Truax,3/11/2023,6/29/2023,new electric
+287,Linden,Petterle,5/22/2023,9/9/2023,electric
+288,Sunnyside,North,8/30/2023,10/1/2023,manual
+289,Ramsey,Mesta,4/17/2023,12/20/2022,manual
+290,Burrows,Coolidge,11/29/2022,3/17/2023,new electric
+291,Lyons,Ilene,3/19/2023,9/7/2023,manual
+292,Stang,Grasskamp,12/17/2022,6/24/2023,manual
+293,Welch,Homewood,4/1/2023,1/22/2023,new electric
+294,Eagan,Anthes,12/19/2022,6/9/2023,manual
+295,Union,Cardinal,10/11/2023,3/24/2023,new electric
+296,Maywood,Northwestern,7/24/2023,9/13/2023,new electric
+297,Schurz,Carioca,8/31/2023,9/8/2023,manual
+298,Menomonie,Mariners Cove,2/13/2023,12/22/2022,electric
+299,Ridgeview,Harper,2/21/2023,2/23/2023,manual
+300,Kedzie,4th,11/4/2022,12/25/2022,new electric
+301,Rieder,Prentice,7/30/2023,5/26/2023,new electric
+302,Packers,High Crossing,5/17/2023,4/4/2023,manual
+303,Pleasure,Bay,1/7/2023,4/27/2023,manual
+304,Northridge,Gateway,8/31/2023,6/23/2023,manual
+305,Raven,Calypso,2/16/2023,8/20/2023,manual
+306,Stephen,Stoughton,10/20/2023,8/21/2023,manual
+307,Hoard,Service,10/13/2023,11/6/2022,electric
+308,New Castle,Coleman,7/18/2023,3/18/2023,manual
+309,Park Meadow,Golf Course,5/16/2023,2/26/2023,electric
+310,Sugar,Roth,6/21/2023,5/3/2023,manual
+311,Lighthouse Bay,Anniversary,6/15/2023,1/9/2023,new electric
+312,Killdeer,Mandrake,1/2/2023,6/4/2023,manual
+313,Clyde Gallagher,Wayridge,6/29/2023,5/16/2023,electric
+314,Dryden,Eliot,1/30/2023,2/22/2023,manual
+315,Green Ridge,Esch,1/20/2023,1/4/2023,electric
+316,Helena,Stephen,7/27/2023,4/27/2023,manual
+317,Scoville,Esch,3/9/2023,5/29/2023,manual
+318,Thackeray,Prentice,8/21/2023,4/16/2023,manual
+319,Meadow Valley,Jay,10/2/2023,6/18/2023,manual
+320,Jana,Pearson,7/6/2023,3/29/2023,electric
+321,Coolidge,Brown,6/27/2023,11/17/2022,electric
+322,Hayes,Susan,11/2/2023,10/19/2023,manual
+323,Cherokee,Pearson,11/11/2022,12/14/2022,new electric
+324,Moland,Gulseth,4/10/2023,9/27/2023,new electric
+325,Montana,Dwight,2/24/2023,4/24/2023,electric
+326,Summer Ridge,Clove,1/26/2023,12/23/2022,manual
+327,Brown,Myrtle,5/14/2023,11/25/2022,new electric
+328,Oakridge,Aberg,10/28/2023,8/4/2023,manual
+329,Gerald,Crest Line,7/24/2023,12/29/2022,new electric
+330,Granby,Carpenter,5/16/2023,9/7/2023,new electric
+331,Erie,Vahlen,8/12/2023,3/27/2023,electric
+332,American Ash,Dottie,5/4/2023,4/21/2023,new electric
+333,Fair Oaks,Westerfield,11/16/2022,1/25/2023,new electric
+334,Gerald,Victoria,11/21/2022,3/8/2023,electric
+335,Fulton,Atwood,7/4/2023,10/3/2023,manual
+336,Roth,Hanson,6/23/2023,11/23/2022,electric
+337,Park Meadow,Buena Vista,1/9/2023,7/28/2023,manual
+338,Orin,Florence,6/6/2023,1/4/2023,electric
+339,Burning Wood,Jay,7/24/2023,6/29/2023,electric
+340,Petterle,Ryan,11/12/2022,4/23/2023,new electric
+341,Oakridge,Anderson,4/30/2023,7/12/2023,manual
+342,Towne,Packers,9/10/2023,3/25/2023,electric
+343,4th,Bowman,6/13/2023,8/12/2023,new electric
+344,Larry,Eastwood,9/6/2023,3/23/2023,electric
+345,Lillian,Cambridge,9/16/2023,11/16/2022,new electric
+346,Lake View,Duke,2/12/2023,4/2/2023,manual
+347,Shoshone,Westridge,7/26/2023,6/21/2023,electric
+348,Pierstorff,Carpenter,6/1/2023,12/19/2022,new electric
+349,Kipling,Karstens,12/31/2022,1/19/2023,electric
+350,Oak,Logan,7/19/2023,5/2/2023,electric
+351,Macpherson,Hauk,7/1/2023,12/12/2022,electric
+352,Butternut,Gale,10/18/2023,4/10/2023,electric
+353,Goodland,Twin Pines,11/27/2022,1/23/2023,new electric
+354,Tony,Bellgrove,6/11/2023,3/28/2023,new electric
+355,Debs,Calypso,9/14/2023,3/3/2023,new electric
+356,Menomonie,Blaine,8/23/2023,10/7/2023,electric
+357,Dunning,Brentwood,10/6/2023,9/26/2023,manual
+358,Fisk,East,10/9/2023,9/15/2023,manual
+359,Sauthoff,Northridge,8/29/2023,12/9/2022,electric
+360,Sherman,Paget,8/24/2023,9/16/2023,new electric
+361,Red Cloud,Welch,11/13/2022,8/14/2023,manual
+362,Steensland,Hooker,9/19/2023,7/15/2023,manual
+363,Namekagon,Lien,7/3/2023,10/7/2023,new electric
+364,Westridge,Sommers,11/27/2022,12/31/2022,electric
+365,Darwin,Hauk,2/1/2023,6/6/2023,electric
+366,Melby,Forest Dale,9/30/2023,7/31/2023,new electric
+367,Dunning,Macpherson,9/11/2023,7/5/2023,new electric
+368,1st,Cody,6/24/2023,9/4/2023,manual
+369,Vernon,Summer Ridge,7/22/2023,8/26/2023,manual
+370,Hanover,Forest Dale,5/27/2023,12/1/2022,manual
+371,Moland,Coolidge,2/8/2023,9/7/2023,new electric
+372,4th,North,11/25/2022,10/1/2023,manual
+373,Mendota,International,1/13/2023,5/13/2023,manual
+374,Stuart,Mccormick,8/20/2023,5/30/2023,electric
+375,Victoria,Garrison,7/14/2023,7/17/2023,electric
+376,Holmberg,Sherman,6/21/2023,5/17/2023,manual
+377,Brown,Annamark,1/8/2023,11/17/2022,manual
+378,Hoard,Westport,7/23/2023,8/18/2023,manual
+379,Thackeray,Dwight,12/30/2022,10/21/2023,new electric
+380,Straubel,Vernon,5/19/2023,10/31/2023,electric
+381,Rieder,Veith,3/31/2023,9/27/2023,manual
+382,Marquette,Drewry,2/27/2023,8/13/2023,electric
+383,Farmco,Susan,10/16/2023,4/21/2023,manual
+384,Fallview,Blackbird,11/16/2022,8/16/2023,new electric
+385,Maple,Bluestem,11/4/2022,6/28/2023,electric
+386,Lyons,Talisman,3/8/2023,10/9/2023,electric
+387,Doe Crossing,Mayfield,6/22/2023,12/22/2022,manual
+388,Fisk,Hoard,8/9/2023,11/27/2022,manual
+389,Southridge,Straubel,6/5/2023,4/18/2023,manual
+390,Sunfield,Atwood,1/7/2023,2/13/2023,manual
+391,Talisman,2nd,7/26/2023,2/21/2023,electric
+392,Blaine,Ludington,1/8/2023,12/26/2022,electric
+393,Erie,Pennsylvania,11/7/2022,5/25/2023,electric
+394,Rockefeller,Lien,8/20/2023,3/3/2023,electric
+395,Ramsey,Utah,11/25/2022,3/9/2023,manual
+396,Melby,Duke,10/24/2023,4/29/2023,manual
+397,Crescent Oaks,Cottonwood,9/2/2023,12/25/2022,new electric
+398,8th,Brentwood,9/21/2023,5/24/2023,new electric
+399,Ronald Regan,Becker,9/2/2023,4/30/2023,new electric
+400,Burning Wood,Karstens,6/14/2023,7/24/2023,manual
+401,Paget,Lakewood Gardens,1/16/2023,11/5/2022,new electric
+402,Londonderry,Orin,6/25/2023,12/9/2022,electric
+403,Main,Twin Pines,2/16/2023,7/23/2023,electric
+404,Emmet,Hoffman,3/4/2023,10/27/2023,electric
+405,Esker,2nd,5/17/2023,1/24/2023,electric
+406,Northwestern,Nevada,11/27/2022,6/19/2023,new electric
+407,Esch,Dovetail,1/29/2023,12/21/2022,new electric
+408,Moland,6th,12/5/2022,9/19/2023,manual
+409,Cascade,Arapahoe,8/4/2023,4/1/2023,electric
+410,Welch,Waubesa,3/15/2023,7/30/2023,new electric
+411,Sherman,Warrior,11/17/2022,12/8/2022,new electric
+412,Forest Run,Blaine,5/5/2023,10/8/2023,new electric
+413,Farragut,Namekagon,4/25/2023,12/4/2022,manual
+414,6th,Paget,8/28/2023,12/17/2022,manual
+415,Steensland,Westport,7/7/2023,2/16/2023,new electric
+416,Blue Bill Park,Cherokee,8/26/2023,2/2/2023,manual
+417,Sycamore,Hintze,9/22/2023,6/17/2023,new electric
+418,Surrey,Morrow,2/9/2023,5/21/2023,manual
+419,Talmadge,Forest,7/22/2023,6/1/2023,new electric
+420,Holmberg,Briar Crest,11/26/2022,7/4/2023,manual
+421,Bobwhite,Corben,10/3/2023,11/2/2023,electric
+422,Burrows,Mandrake,2/16/2023,6/10/2023,new electric
+423,Bellgrove,Annamark,11/3/2022,6/19/2023,manual
+424,Drewry,Hintze,4/20/2023,5/4/2023,electric
+425,Waubesa,Meadow Vale,5/1/2023,12/9/2022,electric
+426,Independence,Manley,6/9/2023,3/4/2023,new electric
+427,Mitchell,Loftsgordon,10/28/2023,9/25/2023,electric
+428,Ronald Regan,Gulseth,7/21/2023,4/30/2023,new electric
+429,Esch,Warrior,12/1/2022,7/6/2023,manual
+430,Farmco,Lake View,9/30/2023,11/3/2022,manual
+431,Ludington,Moland,5/20/2023,2/13/2023,new electric
+432,Dexter,Kings,5/20/2023,9/26/2023,new electric
+433,Welch,Crowley,9/14/2023,9/4/2023,new electric
+434,Montana,Armistice,5/20/2023,4/6/2023,new electric
+435,Oneill,Upham,11/6/2022,11/6/2022,electric
+436,Gateway,Fulton,6/22/2023,10/1/2023,manual
+437,Cardinal,Pankratz,5/13/2023,5/10/2023,new electric
+438,Talisman,Havey,7/6/2023,1/16/2023,electric
+439,4th,Forest Run,7/29/2023,5/25/2023,manual
+440,Comanche,Kings,12/26/2022,4/5/2023,electric
+441,Veith,Northridge,12/9/2022,12/7/2022,new electric
+442,Mockingbird,Ridgeview,10/20/2023,6/21/2023,electric
+443,Loeprich,Crownhardt,4/3/2023,8/8/2023,manual
+444,Fieldstone,Lotheville,4/14/2023,7/6/2023,electric
+445,Bobwhite,Maple Wood,7/27/2023,12/18/2022,new electric
+446,Montana,Sage,10/25/2023,8/10/2023,manual
+447,West,Maple Wood,4/21/2023,12/20/2022,electric
+448,Erie,Cottonwood,2/17/2023,10/15/2023,electric
+449,Service,Trailsway,7/13/2023,3/10/2023,manual
+450,Hallows,Boyd,12/29/2022,2/3/2023,electric
+451,Ilene,Texas,6/21/2023,2/20/2023,new electric
+452,Canary,Crowley,9/23/2023,7/17/2023,manual
+453,Burning Wood,Nobel,8/17/2023,10/26/2023,manual
+454,Green,Kipling,7/2/2023,8/6/2023,manual
+455,Messerschmidt,Village,7/7/2023,11/8/2022,new electric
+456,Hansons,Nancy,7/27/2023,9/9/2023,manual
+457,Reindahl,Sachs,12/17/2022,8/15/2023,electric
+458,Northwestern,Jackson,9/3/2023,1/23/2023,new electric
+459,Swallow,Duke,4/10/2023,6/3/2023,electric
+460,Grayhawk,David,4/23/2023,9/29/2023,manual
+461,Schurz,David,8/13/2023,2/20/2023,new electric
+462,Charing Cross,Browning,10/29/2023,1/3/2023,electric
+463,Waubesa,Rieder,3/4/2023,10/29/2023,new electric
+464,Stang,West,11/6/2022,5/20/2023,manual
+465,Autumn Leaf,Rockefeller,11/7/2022,9/8/2023,electric
+466,Washington,Shoshone,11/10/2022,10/1/2023,electric
+467,Washington,Quincy,12/4/2022,2/6/2023,manual
+468,Mandrake,Harbort,3/28/2023,1/16/2023,manual
+469,Vernon,Cascade,11/14/2022,2/20/2023,manual
+470,Grayhawk,Elka,4/8/2023,7/19/2023,new electric
+471,Veith,Drewry,11/11/2022,8/1/2023,new electric
+472,Lake View,Ronald Regan,11/13/2022,12/4/2022,electric
+473,Thompson,Kropf,1/31/2023,3/19/2023,manual
+474,Truax,Arizona,11/2/2023,3/12/2023,new electric
+475,Grim,Southridge,6/1/2023,6/7/2023,electric
+476,Talisman,Heath,7/2/2023,9/23/2023,manual
+477,Melby,Banding,9/18/2023,7/3/2023,manual
+478,Kipling,Declaration,5/22/2023,2/27/2023,new electric
+479,Anzinger,Mayfield,11/18/2022,4/26/2023,electric
+480,Porter,Forest Dale,7/9/2023,2/23/2023,manual
+481,Alpine,Packers,11/27/2022,10/15/2023,new electric
+482,Hintze,Everett,6/10/2023,4/22/2023,manual
+483,Dottie,Morning,7/22/2023,7/4/2023,electric
+484,Northridge,Gateway,9/27/2023,5/21/2023,manual
+485,Dwight,Southridge,10/18/2023,11/6/2022,new electric
+486,West,Crowley,9/6/2023,2/1/2023,new electric
+487,Blaine,Bunker Hill,6/5/2023,12/22/2022,manual
+488,Loomis,Corscot,10/25/2023,8/4/2023,electric
+489,Mallard,Pankratz,2/9/2023,7/27/2023,manual
+490,Eastlawn,Glacier Hill,2/26/2023,7/14/2023,new electric
+491,Charing Cross,Lotheville,4/27/2023,6/16/2023,electric
+492,Hintze,Bayside,10/5/2023,10/17/2023,manual
+493,Kedzie,Muir,8/3/2023,3/19/2023,manual
+494,Elmside,Eagle Crest,9/30/2023,1/24/2023,new electric
+495,Mcguire,Luster,3/4/2023,4/20/2023,new electric
+496,Blaine,Arapahoe,12/31/2022,3/1/2023,new electric
+497,Larry,Morningstar,4/13/2023,4/29/2023,electric
+498,Cascade,Jackson,7/4/2023,11/8/2022,manual
+499,Claremont,Holmberg,8/28/2023,7/17/2023,manual
+500,Amoth,La Follette,6/17/2023,4/16/2023,electric
+501,Loftsgordon,Melvin,12/1/2022,5/25/2023,electric
+502,Birchwood,Bluestem,4/5/2023,12/22/2022,electric
+503,Farwell,Prentice,6/28/2023,9/14/2023,electric
+504,Lerdahl,Bellgrove,4/28/2023,7/8/2023,new electric
+505,Superior,Sundown,11/8/2022,12/27/2022,manual
+506,Hovde,Welch,9/6/2023,4/16/2023,electric
+507,Sutherland,Weeping Birch,8/5/2023,2/27/2023,new electric
+508,Barnett,1st,4/19/2023,12/19/2022,electric
+509,Larry,Morning,4/30/2023,8/17/2023,electric
+510,Merry,Esch,11/4/2022,8/31/2023,electric
+511,Larry,Ohio,1/1/2023,12/7/2022,new electric
+512,High Crossing,Menomonie,4/18/2023,1/20/2023,new electric
+513,Harper,Messerschmidt,10/16/2023,11/17/2022,new electric
+514,Oakridge,Main,7/28/2023,8/17/2023,new electric
+515,Homewood,Oak,8/24/2023,6/22/2023,electric
+516,Walton,Pankratz,8/25/2023,5/31/2023,manual
+517,Superior,Paget,10/18/2023,6/17/2023,new electric
+518,Hudson,Welch,10/9/2023,2/6/2023,electric
+519,Badeau,Bay,4/26/2023,10/8/2023,electric
+520,Linden,Moulton,3/4/2023,11/11/2022,electric
+521,Porter,Hagan,9/8/2023,11/11/2022,manual
+522,Quincy,Elka,11/19/2022,5/29/2023,new electric
+523,West,Weeping Birch,3/3/2023,11/14/2022,new electric
+524,Derek,Washington,3/12/2023,1/14/2023,new electric
+525,Lotheville,Dottie,7/5/2023,10/8/2023,electric
+526,Mallory,Stone Corner,6/21/2023,8/27/2023,new electric
+527,Fordem,Iowa,2/22/2023,4/11/2023,electric
+528,Gerald,Brickson Park,3/31/2023,8/1/2023,electric
+529,Raven,Kenwood,3/5/2023,8/17/2023,manual
+530,Elka,Fordem,1/18/2023,3/1/2023,electric
+531,Jenifer,Hansons,9/18/2023,8/2/2023,manual
+532,Manley,Westerfield,9/14/2023,11/16/2022,new electric
+533,Claremont,Rieder,11/10/2022,2/14/2023,new electric
+534,Onsgard,Center,11/20/2022,2/9/2023,manual
+535,Delladonna,Lakeland,12/29/2022,9/8/2023,manual
+536,Heath,Dexter,7/24/2023,10/10/2023,new electric
+537,Pearson,Brickson Park,12/21/2022,6/13/2023,new electric
+538,Lillian,Lotheville,10/6/2023,8/23/2023,new electric
+539,Del Sol,Bonner,11/9/2022,8/22/2023,manual
+540,Alpine,Coolidge,12/14/2022,10/4/2023,electric
+541,Portage,Stephen,3/24/2023,5/16/2023,new electric
+542,Eliot,Holy Cross,7/23/2023,5/25/2023,electric
+543,Grover,Scofield,7/12/2023,9/22/2023,new electric
+544,Katie,John Wall,8/24/2023,6/12/2023,electric
+545,Scott,Harbort,8/24/2023,10/23/2023,new electric
+546,Kings,Florence,6/4/2023,4/11/2023,electric
+547,Basil,Logan,9/23/2023,2/13/2023,manual
+548,Brentwood,Butterfield,3/8/2023,12/7/2022,electric
+549,Melvin,Declaration,1/14/2023,8/26/2023,manual
+550,Iowa,Talisman,9/10/2023,5/8/2023,electric
+551,Everett,Marcy,6/15/2023,9/28/2023,electric
+552,Express,Wayridge,10/13/2023,6/26/2023,new electric
+553,Stang,Fallview,3/19/2023,1/28/2023,manual
+554,Service,Morningstar,4/22/2023,12/9/2022,new electric
+555,Ridgeway,Morning,11/10/2022,8/11/2023,electric
+556,Bashford,Clarendon,6/14/2023,11/14/2022,new electric
+557,Kim,Milwaukee,8/17/2023,1/26/2023,new electric
+558,Golf,Loftsgordon,5/31/2023,6/21/2023,manual
+559,Scott,Springview,2/18/2023,9/4/2023,manual
+560,Gale,Helena,5/10/2023,10/25/2023,electric
+561,Ridgeway,Esker,2/8/2023,9/7/2023,electric
+562,Pierstorff,Kensington,8/20/2023,11/8/2022,electric
+563,Blue Bill Park,Mosinee,6/11/2023,11/10/2022,new electric
+564,Mifflin,Briar Crest,10/30/2023,4/20/2023,electric
+565,New Castle,Huxley,6/6/2023,3/9/2023,electric
+566,Victoria,Redwing,9/14/2023,1/19/2023,new electric
+567,Mcbride,South,5/24/2023,2/27/2023,manual
+568,Lakewood Gardens,Namekagon,3/5/2023,7/17/2023,manual
+569,Oxford,Anhalt,5/8/2023,12/26/2022,new electric
+570,Hooker,Crescent Oaks,11/3/2022,1/3/2023,electric
+571,Karstens,Mallard,8/12/2023,12/19/2022,manual
+572,Texas,Maywood,6/27/2023,4/10/2023,electric
+573,Butterfield,8th,7/10/2023,8/26/2023,manual
+574,Heffernan,Summer Ridge,10/13/2023,10/1/2023,electric
+575,Maple Wood,Hayes,5/11/2023,4/29/2023,manual
+576,Vahlen,Mcguire,7/9/2023,2/1/2023,new electric
+577,Sauthoff,Claremont,9/18/2023,4/19/2023,electric
+578,Erie,Service,11/22/2022,12/25/2022,manual
+579,Becker,Ramsey,7/21/2023,8/27/2023,new electric
+580,Clemons,Lien,12/5/2022,2/1/2023,new electric
+581,Autumn Leaf,Debra,9/22/2023,3/30/2023,electric
+582,Ludington,Kingsford,12/2/2022,4/18/2023,manual
+583,Petterle,Rigney,6/24/2023,4/22/2023,electric
+584,Monica,Holmberg,8/31/2023,4/19/2023,new electric
+585,Sutherland,Buena Vista,6/9/2023,10/18/2023,new electric
+586,Wayridge,Johnson,11/6/2022,3/16/2023,new electric
+587,Moland,Acker,6/12/2023,5/13/2023,manual
+588,Memorial,Lighthouse Bay,1/20/2023,8/18/2023,electric
+589,Gulseth,Birchwood,7/21/2023,12/18/2022,new electric
+590,Walton,Fairview,5/26/2023,12/20/2022,electric
+591,Independence,Oakridge,11/5/2022,4/10/2023,new electric
+592,Cascade,Springview,2/28/2023,11/11/2022,electric
+593,Eastwood,Mallard,2/6/2023,9/19/2023,electric
+594,Stang,Memorial,10/27/2023,8/18/2023,electric
+595,Bonner,Columbus,5/30/2023,10/28/2023,electric
+596,Orin,Prairieview,12/25/2022,1/4/2023,electric
+597,Troy,Portage,1/18/2023,6/29/2023,electric
+598,Bluestem,Acker,10/15/2023,9/2/2023,manual
+599,Moland,Rockefeller,10/18/2023,6/27/2023,electric
+600,Susan,Ludington,8/17/2023,11/10/2022,electric
+601,Hazelcrest,5th,8/3/2023,1/12/2023,manual
+602,Longview,Clove,9/17/2023,4/9/2023,new electric
+603,Myrtle,Di Loreto,10/6/2023,3/12/2023,new electric
+604,Monica,Dapin,6/17/2023,3/29/2023,manual
+605,Texas,Lake View,11/21/2022,12/7/2022,new electric
+606,Karstens,Stephen,4/10/2023,1/29/2023,electric
+607,Forest,Troy,1/25/2023,6/16/2023,electric
+608,Gerald,Florence,4/3/2023,10/4/2023,new electric
+609,Vera,Luster,12/13/2022,7/15/2023,electric
+610,Roth,Declaration,11/14/2022,2/4/2023,new electric
+611,Laurel,Marcy,2/24/2023,8/4/2023,manual
+612,Westridge,Glacier Hill,2/12/2023,12/18/2022,electric
+613,Summerview,Kipling,1/6/2023,10/15/2023,electric
+614,Merry,Pennsylvania,7/2/2023,9/6/2023,electric
+615,Vidon,Thompson,12/3/2022,12/6/2022,new electric
+616,Tony,Swallow,4/10/2023,5/19/2023,electric
+617,Brown,Banding,5/22/2023,12/6/2022,new electric
+618,Clarendon,Shasta,8/30/2023,8/14/2023,electric
+619,Hollow Ridge,Moland,5/20/2023,11/22/2022,new electric
+620,Banding,Glendale,10/7/2023,6/25/2023,electric
+621,Northwestern,Crescent Oaks,4/5/2023,11/27/2022,electric
+622,Buhler,Kensington,2/16/2023,6/7/2023,manual
+623,Delaware,Gale,7/19/2023,6/22/2023,manual
+624,Forest,Bluejay,7/26/2023,6/14/2023,new electric
+625,4th,Union,7/14/2023,9/29/2023,electric
+626,Basil,Sullivan,6/24/2023,4/30/2023,electric
+627,Mcguire,Leroy,4/25/2023,11/25/2022,electric
+628,Eagle Crest,Johnson,3/10/2023,7/15/2023,manual
+629,Corben,Emmet,3/27/2023,1/4/2023,new electric
+630,Corry,David,12/8/2022,6/3/2023,electric
+631,Red Cloud,Mitchell,12/1/2022,2/1/2023,manual
+632,Granby,Logan,2/27/2023,3/7/2023,manual
+633,Bobwhite,Dayton,6/7/2023,9/28/2023,new electric
+634,Hagan,Westport,6/23/2023,2/13/2023,manual
+635,Red Cloud,Park Meadow,8/28/2023,5/15/2023,new electric
+636,Marcy,Golden Leaf,3/9/2023,5/30/2023,new electric
+637,Luster,Tennyson,3/4/2023,5/28/2023,manual
+638,Moland,Sutteridge,12/8/2022,10/20/2023,manual
+639,Bay,Westport,6/13/2023,12/21/2022,new electric
+640,Sherman,Rowland,4/22/2023,7/13/2023,manual
+641,Paget,Milwaukee,6/21/2023,5/4/2023,manual
+642,Sundown,6th,1/31/2023,11/21/2022,new electric
+643,Waubesa,Tony,9/8/2023,6/11/2023,manual
+644,Ohio,Grim,12/26/2022,2/24/2023,electric
+645,Clyde Gallagher,Doe Crossing,3/18/2023,9/17/2023,manual
+646,Transport,Banding,5/28/2023,8/16/2023,electric
+647,Park Meadow,Johnson,2/14/2023,12/31/2022,electric
+648,Donald,Morrow,2/3/2023,2/15/2023,manual
+649,Esch,Forest,3/1/2023,3/1/2023,electric
+650,Anniversary,Bayside,8/25/2023,8/24/2023,new electric
+651,Gerald,Northfield,12/22/2022,8/28/2023,manual
+652,Clarendon,Kingsford,1/13/2023,9/14/2023,new electric
+653,Heath,Welch,8/8/2023,9/6/2023,electric
+654,Hallows,Shelley,10/6/2023,11/24/2022,electric
+655,Meadow Vale,Raven,8/9/2023,9/19/2023,electric
+656,Sugar,Pond,3/22/2023,5/10/2023,electric
+657,Saint Paul,Hoffman,11/28/2022,4/28/2023,electric
+658,Debs,Thackeray,6/25/2023,8/11/2023,new electric
+659,Commercial,Thompson,1/10/2023,7/16/2023,new electric
+660,6th,Haas,8/11/2023,1/12/2023,new electric
+661,Londonderry,Brentwood,10/29/2023,7/25/2023,new electric
+662,Ramsey,Farragut,3/31/2023,12/11/2022,manual
+663,Rusk,Scott,2/22/2023,7/23/2023,new electric
+664,Tennyson,7th,8/24/2023,1/31/2023,new electric
+665,Manufacturers,Esker,9/29/2023,9/26/2023,manual
+666,Sugar,Trailsway,4/1/2023,9/19/2023,manual
+667,Tomscot,Truax,6/19/2023,10/4/2023,manual
+668,Del Mar,Dixon,3/16/2023,7/13/2023,manual
+669,Lotheville,Coleman,11/30/2022,9/28/2023,electric
+670,Waubesa,Glacier Hill,12/14/2022,6/2/2023,manual
+671,Randy,Springs,1/17/2023,8/8/2023,new electric
+672,Old Shore,Del Mar,9/26/2023,7/16/2023,manual
+673,Helena,4th,5/20/2023,7/2/2023,electric
+674,Tennessee,Declaration,3/4/2023,8/16/2023,manual
+675,Fuller,Westridge,12/21/2022,5/8/2023,new electric
+676,Bayside,Clove,5/15/2023,11/7/2022,new electric
+677,Talisman,Prairieview,7/25/2023,5/2/2023,manual
+678,Bellgrove,Waywood,11/2/2023,1/16/2023,new electric
+679,Petterle,Esker,11/21/2022,4/13/2023,manual
+680,Lerdahl,Golden Leaf,7/23/2023,3/22/2023,new electric
+681,Bartillon,Namekagon,4/7/2023,2/2/2023,manual
+682,Pankratz,Esch,8/30/2023,1/29/2023,electric
+683,Mesta,Bunting,5/25/2023,4/20/2023,manual
+684,Saint Paul,Bluejay,2/3/2023,7/19/2023,manual
+685,Hintze,Thackeray,7/26/2023,4/16/2023,new electric
+686,Pankratz,Duke,7/8/2023,12/17/2022,electric
+687,Alpine,Bultman,1/4/2023,2/16/2023,new electric
+688,Mifflin,Miller,12/20/2022,8/17/2023,electric
+689,Golden Leaf,Dawn,3/15/2023,5/15/2023,electric
+690,Orin,Shopko,9/24/2023,10/5/2023,electric
+691,Nevada,Brown,7/8/2023,6/14/2023,manual
+692,Ridge Oak,Corben,7/15/2023,4/25/2023,manual
+693,Helena,Graceland,3/20/2023,11/6/2022,electric
+694,New Castle,Roxbury,11/17/2022,4/28/2023,electric
+695,Fuller,Lillian,6/23/2023,10/27/2023,manual
+696,Waubesa,Anderson,2/1/2023,6/15/2023,electric
+697,Pine View,Crownhardt,12/20/2022,12/31/2022,manual
+698,Lighthouse Bay,Darwin,6/14/2023,5/14/2023,new electric
+699,Kinsman,Atwood,3/20/2023,12/16/2022,new electric
+700,Oriole,Lien,8/3/2023,10/4/2023,new electric
+701,Scott,Dovetail,3/26/2023,8/22/2023,electric
+702,Schlimgen,Declaration,11/6/2022,7/3/2023,manual
+703,Independence,3rd,11/27/2022,1/25/2023,new electric
+704,Eliot,Hooker,6/18/2023,6/6/2023,manual
+705,Ridgeway,Stone Corner,6/29/2023,5/23/2023,new electric
+706,Warbler,Petterle,11/24/2022,3/30/2023,manual
+707,Havey,Judy,11/19/2022,9/24/2023,manual
+708,Delaware,Prairie Rose,1/14/2023,1/21/2023,manual
+709,Starling,Killdeer,4/2/2023,7/12/2023,manual
+710,Hallows,Hagan,12/13/2022,7/12/2023,manual
+711,Red Cloud,Vera,4/24/2023,9/19/2023,new electric
+712,Hallows,Shasta,8/17/2023,6/5/2023,manual
+713,Truax,Ohio,2/12/2023,12/27/2022,manual
+714,Grayhawk,Helena,12/14/2022,1/27/2023,electric
+715,Talisman,Burning Wood,9/13/2023,9/15/2023,new electric
+716,Quincy,Iowa,3/30/2023,12/20/2022,manual
+717,Coleman,Arkansas,5/4/2023,1/18/2023,manual
+718,Forest,Warner,12/14/2022,7/10/2023,electric
+719,Dahle,Warbler,5/1/2023,10/5/2023,manual
+720,Nova,Oak,10/18/2023,6/3/2023,new electric
+721,Arkansas,Texas,10/7/2023,10/5/2023,manual
+722,Bluestem,Autumn Leaf,7/10/2023,4/19/2023,manual
+723,Cambridge,Packers,7/20/2023,3/27/2023,new electric
+724,Graceland,Sunnyside,6/12/2023,9/4/2023,new electric
+725,Bonner,Red Cloud,12/29/2022,3/5/2023,new electric
+726,Almo,Gina,7/14/2023,8/8/2023,electric
+727,Coolidge,Mallory,5/30/2023,1/15/2023,new electric
+728,Springview,Pankratz,10/1/2023,2/25/2023,manual
+729,Hazelcrest,6th,12/13/2022,10/26/2023,electric
+730,Dixon,Bobwhite,2/20/2023,10/23/2023,electric
+731,1st,Dawn,3/17/2023,9/26/2023,manual
+732,Paget,Westerfield,8/17/2023,2/6/2023,electric
+733,West,Scofield,8/20/2023,7/8/2023,manual
+734,Autumn Leaf,Derek,8/8/2023,2/12/2023,new electric
+735,Bunting,Elgar,8/27/2023,10/27/2023,electric
+736,Lerdahl,Kim,4/19/2023,4/11/2023,electric
+737,Corscot,Erie,2/11/2023,6/6/2023,manual
+738,Cody,Texas,3/1/2023,5/12/2023,electric
+739,Vermont,Stephen,11/11/2022,11/2/2023,manual
+740,Service,Park Meadow,5/21/2023,9/16/2023,manual
+741,Reindahl,Spohn,5/19/2023,1/23/2023,electric
+742,Hansons,Comanche,10/26/2023,12/12/2022,new electric
+743,Carberry,Bowman,1/6/2023,9/26/2023,electric
+744,Wayridge,Quincy,5/16/2023,10/1/2023,new electric
+745,Ilene,Tomscot,9/17/2023,12/29/2022,new electric
+746,Mallard,Nobel,12/10/2022,5/11/2023,new electric
+747,Daystar,Amoth,7/29/2023,4/26/2023,manual
+748,Burning Wood,East,7/7/2023,6/14/2023,new electric
+749,Arizona,Kedzie,11/22/2022,3/18/2023,electric
+750,Summit,Jay,8/12/2023,8/1/2023,electric
+751,Lyons,Dovetail,6/15/2023,11/7/2022,manual
+752,Butternut,Sloan,4/4/2023,8/20/2023,new electric
+753,Northland,Knutson,11/16/2022,11/21/2022,manual
+754,Melvin,Scofield,11/18/2022,5/18/2023,manual
+755,Melby,Londonderry,9/12/2023,8/13/2023,electric
+756,Sunnyside,Karstens,2/8/2023,10/31/2023,electric
+757,Toban,Ludington,1/5/2023,5/16/2023,electric
+758,Oak Valley,Lillian,1/31/2023,6/22/2023,manual
+759,Sullivan,Lindbergh,5/26/2023,5/2/2023,electric
+760,Lunder,Briar Crest,2/20/2023,1/23/2023,manual
+761,Columbus,Little Fleur,4/2/2023,6/22/2023,manual
+762,Bluestem,Muir,8/31/2023,9/28/2023,new electric
+763,Charing Cross,Kingsford,3/25/2023,1/8/2023,manual
+764,Merry,Nobel,6/6/2023,12/26/2022,manual
+765,2nd,Stone Corner,10/21/2023,2/23/2023,electric
+766,Di Loreto,Bunting,11/4/2022,7/20/2023,new electric
+767,Rowland,Lighthouse Bay,11/24/2022,12/19/2022,electric
+768,Northfield,Pennsylvania,1/9/2023,7/10/2023,electric
+769,Sullivan,Dahle,9/8/2023,8/27/2023,manual
+770,Village Green,Blaine,7/16/2023,4/21/2023,manual
+771,Di Loreto,Mariners Cove,8/18/2023,7/25/2023,manual
+772,Magdeline,Pierstorff,6/30/2023,6/28/2023,manual
+773,Northridge,Londonderry,12/4/2022,6/14/2023,new electric
+774,Macpherson,Dawn,11/30/2022,11/24/2022,new electric
+775,Hazelcrest,Grim,5/15/2023,1/11/2023,electric
+776,Loeprich,Pennsylvania,11/29/2022,6/30/2023,manual
+777,Hermina,Lakewood,3/9/2023,6/22/2023,manual
+778,Schmedeman,Moulton,3/28/2023,3/22/2023,new electric
+779,Maple Wood,Kenwood,8/28/2023,10/19/2023,new electric
+780,David,Florence,7/26/2023,7/22/2023,electric
+781,American Ash,Fair Oaks,9/24/2023,8/10/2023,new electric
+782,Heath,Southridge,9/18/2023,7/9/2023,new electric
+783,Bluejay,Blackbird,7/23/2023,5/10/2023,manual
+784,Springview,Rowland,11/6/2022,7/6/2023,manual
+785,Main,Hooker,5/23/2023,1/29/2023,manual
+786,Hagan,Holy Cross,11/29/2022,11/2/2023,new electric
+787,Meadow Vale,Emmet,7/31/2023,10/22/2023,electric
+788,Melody,Blue Bill Park,11/26/2022,11/14/2022,manual
+789,Laurel,Acker,5/25/2023,10/3/2023,manual
+790,Pleasure,Roxbury,11/29/2022,9/20/2023,new electric
+791,Spenser,Florence,3/10/2023,5/3/2023,manual
+792,Chinook,Ramsey,9/13/2023,1/17/2023,electric
+793,Hanover,Brickson Park,12/29/2022,4/17/2023,new electric
+794,Fairview,Springview,6/27/2023,8/26/2023,manual
+795,7th,Westridge,11/1/2023,6/12/2023,new electric
+796,Tony,Bobwhite,11/29/2022,6/14/2023,new electric
+797,Farragut,Rusk,9/7/2023,6/15/2023,electric
+798,Utah,Doe Crossing,7/30/2023,11/23/2022,manual
+799,Sachtjen,Ludington,10/1/2023,6/18/2023,new electric
+800,Homewood,Graceland,6/16/2023,6/14/2023,new electric
+801,Monica,Tomscot,8/16/2023,7/13/2023,manual
+802,Fieldstone,Quincy,4/28/2023,10/2/2023,manual
+803,Norway Maple,Mariners Cove,7/25/2023,9/3/2023,electric
+804,Lerdahl,Longview,5/19/2023,10/15/2023,electric
+805,Oakridge,Roxbury,3/24/2023,9/7/2023,new electric
+806,East,Holy Cross,10/9/2023,12/7/2022,new electric
+807,Prairie Rose,Southridge,8/18/2023,6/18/2023,manual
+808,Towne,Bowman,12/3/2022,3/13/2023,new electric
+809,Ohio,Bultman,7/4/2023,3/9/2023,new electric
+810,Burrows,Montana,3/16/2023,5/30/2023,manual
+811,Express,Debra,3/5/2023,5/24/2023,electric
+812,Coolidge,Farmco,11/7/2022,7/20/2023,new electric
+813,Jackson,Reindahl,7/8/2023,6/25/2023,new electric
+814,Scoville,Ryan,6/13/2023,4/22/2023,new electric
+815,Sunbrook,Mandrake,4/25/2023,12/11/2022,manual
+816,Gina,Amoth,12/31/2022,9/22/2023,electric
+817,Scofield,Stephen,2/11/2023,2/9/2023,electric
+818,Briar Crest,Lyons,7/16/2023,2/24/2023,manual
+819,Grasskamp,Prairieview,12/14/2022,10/19/2023,electric
+820,Logan,Thackeray,4/29/2023,7/18/2023,manual
+821,Holmberg,Sycamore,7/16/2023,6/30/2023,manual
+822,Warner,Norway Maple,8/31/2023,12/26/2022,new electric
+823,Messerschmidt,Kenwood,12/11/2022,11/11/2022,manual
+824,Hermina,6th,1/6/2023,5/16/2023,new electric
+825,Ohio,Mariners Cove,5/14/2023,8/7/2023,manual
+826,Basil,Melby,5/23/2023,12/17/2022,manual
+827,Main,Randy,7/22/2023,5/14/2023,electric
+828,Grayhawk,Melrose,8/28/2023,12/14/2022,new electric
+829,Sycamore,Blaine,11/25/2022,1/1/2023,electric
+830,Pond,Crescent Oaks,12/10/2022,3/13/2023,manual
+831,Lillian,Grasskamp,8/3/2023,10/2/2023,new electric
+832,Acker,Loftsgordon,2/8/2023,5/19/2023,electric
+833,Almo,Bunker Hill,5/20/2023,5/26/2023,manual
+834,Daystar,Kim,3/7/2023,8/11/2023,electric
+835,Dryden,Hintze,7/21/2023,5/6/2023,electric
+836,Bunting,Moland,7/5/2023,10/17/2023,manual
+837,Mallory,David,2/7/2023,3/13/2023,new electric
+838,Westridge,Eliot,5/13/2023,9/10/2023,manual
+839,Schiller,Arkansas,5/26/2023,1/29/2023,new electric
+840,Colorado,Hermina,2/16/2023,8/27/2023,manual
+841,Kings,Express,9/18/2023,8/27/2023,manual
+842,Clove,Ridge Oak,8/19/2023,5/22/2023,new electric
+843,Autumn Leaf,Village Green,7/15/2023,8/10/2023,electric
+844,Vera,David,2/16/2023,8/4/2023,new electric
+845,Dunning,Lakewood Gardens,5/19/2023,1/15/2023,new electric
+846,Westerfield,Linden,9/28/2023,6/21/2023,electric
+847,Delaware,Linden,5/6/2023,11/19/2022,new electric
+848,Anhalt,Tony,1/25/2023,9/7/2023,manual
+849,Mayer,Hagan,8/23/2023,6/29/2023,new electric
+850,Holmberg,Northridge,3/4/2023,8/22/2023,electric
+851,Dexter,Sommers,11/19/2022,1/24/2023,manual
+852,Thierer,Evergreen,2/1/2023,9/4/2023,new electric
+853,Spenser,Nancy,5/11/2023,12/9/2022,new electric
+854,Hollow Ridge,Cherokee,5/3/2023,10/8/2023,electric
+855,Blaine,Drewry,9/27/2023,11/13/2022,electric
+856,Hagan,Nancy,7/19/2023,5/12/2023,new electric
+857,Lien,Commercial,3/1/2023,3/31/2023,manual
+858,Warner,Victoria,8/13/2023,1/3/2023,electric
+859,Miller,Eagle Crest,1/20/2023,2/24/2023,manual
+860,Ramsey,Lindbergh,2/9/2023,1/11/2023,manual
+861,Harper,Saint Paul,1/16/2023,1/2/2023,new electric
+862,Havey,Carberry,5/2/2023,11/13/2022,new electric
+863,Florence,Manitowish,5/7/2023,2/27/2023,manual
+864,Quincy,Talisman,7/13/2023,2/10/2023,new electric
+865,Dovetail,Heffernan,5/19/2023,12/11/2022,new electric
+866,Manley,Pawling,10/16/2023,12/13/2022,new electric
+867,Arrowood,Lyons,5/26/2023,1/15/2023,manual
+868,Sutteridge,School,4/12/2023,3/8/2023,electric
+869,Straubel,Straubel,1/25/2023,4/26/2023,electric
+870,Talmadge,Helena,4/26/2023,1/28/2023,electric
+871,Meadow Vale,Mockingbird,8/12/2023,1/10/2023,manual
+872,Barby,Anhalt,1/17/2023,3/16/2023,new electric
+873,Pleasure,Lyons,11/26/2022,12/31/2022,manual
+874,East,Hoard,10/20/2023,3/13/2023,electric
+875,Basil,Vernon,8/25/2023,6/17/2023,electric
+876,Burrows,Elgar,10/8/2023,6/11/2023,electric
+877,Dakota,American Ash,9/26/2023,7/22/2023,manual
+878,Monument,Pond,10/16/2023,7/6/2023,new electric
+879,East,Blue Bill Park,11/16/2022,12/4/2022,new electric
+880,Randy,Cambridge,11/6/2022,2/7/2023,new electric
+881,Anthes,Holmberg,11/7/2022,9/3/2023,electric
+882,Washington,2nd,8/2/2023,9/23/2023,new electric
+883,Almo,Briar Crest,7/18/2023,10/2/2023,manual
+884,Hallows,Meadow Ridge,6/3/2023,4/2/2023,new electric
+885,Toban,Comanche,5/13/2023,10/14/2023,electric
+886,School,Hayes,6/5/2023,2/12/2023,new electric
+887,Fairfield,Gina,12/14/2022,12/25/2022,new electric
+888,Oak Valley,Grayhawk,3/15/2023,1/15/2023,new electric
+889,Maryland,Homewood,7/25/2023,5/31/2023,electric
+890,Banding,Quincy,9/15/2023,8/2/2023,electric
+891,Redwing,Dunning,10/3/2023,4/28/2023,electric
+892,Park Meadow,Fisk,9/20/2023,7/21/2023,new electric
+893,Artisan,Blue Bill Park,11/14/2022,6/27/2023,new electric
+894,Lindbergh,Everett,9/21/2023,12/18/2022,new electric
+895,Lunder,Northridge,9/15/2023,10/8/2023,new electric
+896,Warrior,Bay,10/9/2023,9/16/2023,new electric
+897,Golden Leaf,Thierer,3/6/2023,2/8/2023,electric
+898,Shoshone,Artisan,6/26/2023,2/14/2023,manual
+899,Grim,Charing Cross,1/23/2023,1/23/2023,manual
+900,Scoville,Eagle Crest,2/4/2023,2/1/2023,manual
+901,Barnett,Loftsgordon,5/21/2023,2/26/2023,new electric
+902,Nobel,Roxbury,5/31/2023,8/27/2023,manual
+903,Butternut,Texas,4/15/2023,3/19/2023,electric
+904,Grover,Green Ridge,6/25/2023,12/11/2022,new electric
+905,Trailsway,Jenna,7/9/2023,10/15/2023,new electric
+906,Moose,Sommers,7/4/2023,5/22/2023,new electric
+907,Melrose,Novick,2/22/2023,4/25/2023,electric
+908,Jana,American,6/14/2023,7/9/2023,electric
+909,Little Fleur,Menomonie,1/4/2023,11/8/2022,manual
+910,Briar Crest,Cambridge,8/7/2023,1/29/2023,manual
+911,Carioca,Sauthoff,5/24/2023,4/25/2023,manual
+912,Fairview,Hauk,5/14/2023,3/10/2023,new electric
+913,Roxbury,Ronald Regan,6/1/2023,2/28/2023,manual
+914,Mayer,Dixon,6/19/2023,9/6/2023,manual
+915,Upham,Forest,1/25/2023,9/1/2023,manual
+916,Roxbury,Westridge,6/19/2023,5/24/2023,electric
+917,Elmside,Stephen,7/9/2023,7/25/2023,manual
+918,Grover,Columbus,12/26/2022,9/5/2023,manual
+919,Service,Everett,3/11/2023,7/11/2023,new electric
+920,Truax,School,6/25/2023,6/7/2023,manual
+921,Mitchell,Farwell,11/18/2022,8/3/2023,new electric
+922,Arrowood,Sloan,9/20/2023,1/6/2023,electric
+923,Marcy,Swallow,2/27/2023,2/2/2023,manual
+924,Londonderry,Stuart,4/16/2023,2/9/2023,electric
+925,Valley Edge,Autumn Leaf,8/6/2023,4/27/2023,electric
+926,Northport,Green,12/17/2022,3/14/2023,new electric
+927,Lakewood,Delaware,4/16/2023,1/9/2023,electric
+928,Garrison,6th,12/7/2022,9/25/2023,new electric
+929,Carey,Bayside,12/31/2022,5/1/2023,manual
+930,Pankratz,Bayside,4/14/2023,6/9/2023,new electric
+931,Crowley,Dawn,12/3/2022,6/4/2023,manual
+932,Hollow Ridge,Golden Leaf,4/10/2023,10/6/2023,electric
+933,Tennyson,Thackeray,4/1/2023,3/29/2023,electric
+934,Longview,Golden Leaf,12/17/2022,5/11/2023,manual
+935,Helena,North,5/31/2023,1/11/2023,new electric
+936,Trailsway,International,7/11/2023,3/26/2023,electric
+937,Victoria,Washington,3/1/2023,5/7/2023,manual
+938,Mayer,Old Gate,1/13/2023,6/3/2023,electric
+939,Bartillon,Schiller,4/14/2023,9/12/2023,electric
+940,Scoville,Petterle,11/28/2022,1/2/2023,manual
+941,Mendota,Arapahoe,8/24/2023,10/13/2023,new electric
+942,Gerald,Messerschmidt,5/8/2023,11/19/2022,electric
+943,Kensington,Bonner,4/30/2023,2/13/2023,electric
+944,Bluestem,Onsgard,1/12/2023,11/19/2022,new electric
+945,Weeping Birch,Brown,5/3/2023,3/26/2023,electric
+946,Bayside,Fremont,6/2/2023,11/27/2022,electric
+947,Corben,Manitowish,1/22/2023,7/13/2023,manual
+948,Alpine,Stang,7/14/2023,3/20/2023,new electric
+949,Carioca,Messerschmidt,8/19/2023,8/18/2023,manual
+950,Morrow,Corscot,9/12/2023,6/24/2023,new electric
+951,Jenifer,Eastlawn,5/15/2023,5/15/2023,new electric
+952,Warner,Schiller,6/6/2023,3/26/2023,electric
+953,Esker,Corscot,2/12/2023,10/27/2023,new electric
+954,Ramsey,Fairfield,9/28/2023,1/4/2023,new electric
+955,Old Gate,Green,3/3/2023,5/5/2023,manual
+956,4th,Saint Paul,9/23/2023,1/9/2023,new electric
+957,Monica,Knutson,4/15/2023,8/7/2023,electric
+958,Moland,Drewry,4/11/2023,12/3/2022,manual
+959,Erie,Troy,6/3/2023,1/22/2023,new electric
+960,Bartillon,Texas,12/27/2022,3/3/2023,new electric
+961,Delladonna,Fremont,12/12/2022,12/1/2022,manual
+962,Mallard,Russell,9/3/2023,8/21/2023,manual
+963,Maple,Sheridan,4/4/2023,12/17/2022,manual
+964,Russell,Reindahl,2/26/2023,2/5/2023,electric
+965,4th,Amoth,3/30/2023,5/17/2023,electric
+966,Larry,Claremont,1/10/2023,2/19/2023,electric
+967,Anhalt,Nova,5/31/2023,9/18/2023,new electric
+968,Amoth,Quincy,8/31/2023,1/20/2023,manual
+969,Sundown,Sheridan,1/1/2023,9/26/2023,electric
+970,Drewry,Express,11/25/2022,7/25/2023,new electric
+971,Artisan,Kennedy,4/1/2023,6/24/2023,electric
+972,Grayhawk,Oxford,8/5/2023,3/27/2023,new electric
+973,South,Oak Valley,8/1/2023,3/24/2023,manual
+974,Mccormick,Bashford,11/8/2022,8/19/2023,electric
+975,Melody,Farwell,12/13/2022,9/18/2023,new electric
+976,1st,Holmberg,9/12/2023,10/30/2023,electric
+977,Butternut,Merchant,4/1/2023,9/4/2023,new electric
+978,Pankratz,Hansons,10/23/2023,11/26/2022,electric
+979,Sachs,Main,6/22/2023,1/8/2023,manual
+980,Grim,Dapin,7/26/2023,3/17/2023,electric
+981,Dakota,Nelson,10/29/2023,3/17/2023,electric
+982,Weeping Birch,Mallory,8/2/2023,10/29/2023,manual
+983,Basil,Valley Edge,6/21/2023,6/20/2023,manual
+984,Golf,Corscot,6/25/2023,10/8/2023,electric
+985,Cody,Barby,1/13/2023,4/25/2023,new electric
+986,Eliot,Mallory,4/6/2023,9/29/2023,electric
+987,Lerdahl,Farragut,5/21/2023,10/30/2023,manual
+988,Merrick,Division,10/22/2023,4/25/2023,manual
+989,West,Clarendon,2/14/2023,7/27/2023,manual
+990,Golf,Havey,1/23/2023,9/9/2023,manual
+991,John Wall,Crowley,3/27/2023,9/19/2023,electric
+992,Forest,Village,8/4/2023,5/27/2023,manual
+993,Daystar,Larry,9/11/2023,8/20/2023,new electric
+994,Delladonna,Brentwood,11/8/2022,8/27/2023,electric
+995,Monument,Loeprich,3/9/2023,5/16/2023,new electric
+996,Oriole,Porter,2/5/2023,9/1/2023,electric
+997,Kipling,Summerview,1/28/2023,9/2/2023,manual
+998,Clemons,Banding,1/3/2023,9/22/2023,new electric
+999,Grayhawk,Anzinger,12/7/2022,8/27/2023,new electric
+1000,Oneill,Vidon,10/31/2023,3/7/2023,new electric
