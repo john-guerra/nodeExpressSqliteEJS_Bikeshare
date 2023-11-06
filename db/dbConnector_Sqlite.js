@@ -152,8 +152,33 @@ async function createTrip( newRide) {
 
 // ******* COMMENTS *********
 
+async function getComment(comment_id) {
+  console.log("Get comment comment_id", comment_id);
+  const db = await connect();
+  try {
+    const stmt = await db.prepare(`SELECT 
+    ride_id,
+    comment_id,
+    comment 
+  FROM comments
+  WHERE 
+    comment_id = :comment_id    
+  `);
+
+    stmt.bind({ ":comment_id": comment_id });
+
+    const comments = await stmt.all();
+
+    await stmt.finalize();
+
+    return comments;
+  } finally {
+    await db.close();
+  }
+}
+
 async function getComments(ride_id) {
-  console.log("Get trip ride_id", ride_id);
+  console.log("Get comments for ride_id", ride_id);
   const db = await connect();
   try {
     const stmt = await db.prepare(`SELECT 
@@ -177,6 +202,58 @@ async function getComments(ride_id) {
   }
 }
 
+// Update one comment
+async function updateComment(comment_id, newComment) {
+  console.log("update comment comment_id", comment_id);
+  const db = await connect();
+  try {
+    const stmt = await db.prepare(`UPDATE comments  
+    SET
+      comment = :comment
+  WHERE 
+    comment_id = :comment_id    
+  `);
+
+    stmt.bind({
+      ":comment_id": comment_id,
+      ":comment": newComment.comment,
+    });
+
+    const result = await stmt.run();
+
+    await stmt.finalize();
+
+    return result;
+  } finally {
+    await db.close();
+  }
+}
+
+// Delete one comment
+async function deleteComment(comment_id) {
+  console.log("Delete comment comment_id", comment_id);
+  const db = await connect();
+  try {
+    const stmt = await db.prepare(`DELETE FROM comments  
+  WHERE 
+    comment_id = :comment_id    
+  `);
+
+    stmt.bind({
+      ":comment_id": comment_id,
+    });
+
+    const result = await stmt.run();
+
+    await stmt.finalize();
+
+    return result;
+  } finally {
+    await db.close();
+  }
+}
+
+
 module.exports = {
   getTrips,
   getTrip,
@@ -184,4 +261,7 @@ module.exports = {
   deleteTrip,
   createTrip,
   getComments,
+  getComment,
+  updateComment,
+  deleteComment
 };

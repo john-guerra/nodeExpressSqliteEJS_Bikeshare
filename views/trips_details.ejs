@@ -42,12 +42,49 @@
         </label>
       </div>
 
+      <% if (comments && comments.length) { %>
+
       <h2>Comments:</h2>
 
       <% comments.forEach(function(comment){ %>
 
-        <%= comment.comment %>
+      <form action="/comments/<%= comment.comment_id %>/edit" method="POST">
+        <div class="mb-1">
+          <textarea type="text" name="comment" cols="80" rows="5">
+  <%= comment.comment %></textarea
+          >
+        </div>
+        <div class="mb-1">
+          <button type="submit" class="btn btn-primary btn-sm">Edit</button>
+          <a
+            href="/comments/<%= comment.comment_id %>/delete"
+            class="btn btn-danger btn-sm"
+            >Delete</a
+          >
+        </div>
+        <!-- /btn-group -->
+      </form>
+
       <% }) %>
+      <!-- comments for loop -->
+
+      <% } %>
+      <!-- if comments -->
+
+      <h3>Add new comment</h3>
+      <form action="/trips/<%= trip.ride_id %>/comments/create" method="POST">
+        <div class="mb-1">
+          <label
+            >Comment:
+
+            <textarea cols="80" rows="5" name="comment" class="form-control">
+            </textarea>
+          </label>
+        </div>
+        <div class="mb-1">
+          <button type="submit" class="btn btn-primary">Comment</button>
+        </div>
+      </form>
 
       <%- include("./partials/footer.ejs") %>
     </div>
